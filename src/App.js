@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Counter } from './features/counter/Counter';
+import { Posts } from './features/post/Post';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           RTK example
         </p>
         <Counter/>
+        <Posts/>
       </header>
     </div>
   );
